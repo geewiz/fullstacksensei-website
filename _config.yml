@@ -1,10 +1,10 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
-locale:             en_US
+title:              "Full Stack Sensei"
+bio:                "I'm a black belt in geek-do, the not so ancient art of achieving one's goals by merging technology with passion."
+description:        "Views on DevOps and SRE from a CTO perspective"
+locale:             en_UK
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://www.fullstacksensei.com" # the base hostname & protocol for your site
 background_image:   /images/bg.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 formspree_thankyou_page: /thank-you
@@ -38,15 +38,15 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
+twitter:            FullStackSensei
 facebook:           default
 instagram:          default
-github:             default
+github:             geewiz
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Bray, Ireland
+phone:              "+353 1901 2642" 
+email:              info@fullstacksensei.com
 
 # Gems
 gems:
@@ -60,7 +60,7 @@ paginate: 6
 paginate_path: "/blog/page:num/"
 
 jekyll-mentions:
-    base_url: https://github.com
+  base_url: https://github.com
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
