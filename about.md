@@ -18,7 +18,7 @@ I wrote my first line of code in 1984, launched my first Linux shell in 1992 and
 
 I've been a geek since primary school, dabbling with chemistry, electronics and other things that peaked my interest. Then I got a computer and for the last few decades, the steady innovation in IT easily kept my mind occupied. I'm also a fan of Japanese martial arts, hence the name of this website.
 
-Since 2010, I'm busy as the founder and CTO of freistil IT, a small managed web hosting company based in Ireland and operated by an internationally distributed web operations team.
+Since 2010, I'm busy as the founder and CTO of [freistil IT](https://www.freistil.it), a small managed web hosting company based in Ireland and operated by an internationally distributed web operations team.
 
 My favourite tools and topics are:
 
