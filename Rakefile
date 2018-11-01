@@ -6,24 +6,14 @@ DOCKER_IMAGE = "#{DOCKER_REGISTRY}/#{PROJECT_NAME}"
 
 task :default => :build
 
-desc "Create a new blog post"
-task :new, [:slug] do |t, args|
-  sh "bundle exec middleman article #{args[:slug]}"
-end
-
 desc "Build the website from source"
 task :build do
-  sh "bundle exec middleman build --clean"
+  sh "bundle exec jekyll build"
 end
 
 desc "Run the preview server at http://localhost:5000"
 task :preview do
   sh "bundle exec rackup -p 5000"
-end
-
-desc "Automatically rebuild after changes"
-task :autorefresh do
-  sh "bundle exec guard"
 end
 
 RSpec::Core::RakeTask.new(:spec)
