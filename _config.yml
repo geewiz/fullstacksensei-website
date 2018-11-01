@@ -34,7 +34,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   default
+disqus_shortname:   full-stack-sensei
 
 # Social
 analytics-id:       "default"

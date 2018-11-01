@@ -16,4 +16,3 @@ set -o nounset
 DOCKER_IMAGE="${DOCKER_REGISTRY}/${DOCKER_ORGANISATION}/${PROJECT_NAME}"
 
 docker build -t ${DOCKER_IMAGE}:latest .
-docker push ${DOCKER_IMAGE}:latest
