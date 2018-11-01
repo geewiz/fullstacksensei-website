@@ -3,8 +3,8 @@ title:              "Full Stack Sensei"
 bio:                "I'm a black belt in geek-do, the not so ancient art of achieving one's goals by merging technology with passion."
 description:        "Views on DevOps and SRE from a CTO perspective"
 locale:             en_UK
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.fullstacksensei.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
 background_image:   /images/bg.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 formspree_thankyou_page: /thank-you
