@@ -1,0 +1,6 @@
+.deploy_env
+.env
+.git
+.sass-cache
+bin
+k8s

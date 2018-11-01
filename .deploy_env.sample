@@ -1,0 +1,4 @@
+PROJECT_NAME="fullstacksensei-website"
+DOCKER_REGISTRY="quay.io"
+DOCKER_ORGANISATION="freistil"
+K8S_NAMESPACE="f7it"

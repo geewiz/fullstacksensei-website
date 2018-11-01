@@ -1,0 +1,12 @@
+language: ruby
+cache: bundler
+sudo: required
+services:
+- docker
+script:
+- bundle exec rake test
+deploy:
+  provider: script
+  script: bin/deploy.sh
+  on:
+    branch: master

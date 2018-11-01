@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: fullstacksensei-website-ingress
+spec:
+  tls:
+  - hosts:
+    - www.fullstacksensei.com
+    - fullstacksensei.com
+    secretName: www-fullstacksensei-com-tls
+  rules:
+  - host: fullstacksensei.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: fullstacksensei-website-service
+          servicePort: 80
+  - host: www.fullstacksensei.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: fullstacksensei-website-service
+          servicePort: 80

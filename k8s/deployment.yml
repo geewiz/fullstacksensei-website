@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fullstacksensei-website
+spec:
+  selector:
+    matchLabels:
+      app: fullstacksensei-website
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: fullstacksensei-website
+    spec:
+      containers:
+        - name: middleman
+          image: quay.io/freistil/fullstacksensei-website
+          ports:
+            - containerPort: 5000
+      imagePullSecrets:
+        - name: quay-pull-secret

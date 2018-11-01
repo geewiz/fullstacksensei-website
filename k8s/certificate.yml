@@ -1,0 +1,19 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: www-fullstacksensei-com
+spec:
+  secretName: www-fullstacksensei-com-tls
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: www.fullstacksensei.com
+  dnsNames:
+  - fullstacksensei.com
+  acme:
+    config:
+    - http01:
+        ingressClass: nginx
+      domains:
+      - www.fullstacksensei.com
+      - fullstacksensei.com
