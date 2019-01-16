@@ -7,7 +7,7 @@ excerpt: "Why TDD is an investment that pays off"
 
 The concept of Test-Driven Development (TDD) isn't particularly new anymore. But even after quite a few years of accompanying my code (regardless if it's a Rails app or Chef infra code) with tests, TDD is still far from being second nature to me. I've recently watched a talk from RubyHACK 2018 which motivated me to get better at it.
 
-![Some Truths About Some Lies About Testing](https://www.youtube.com/watch?v=TkbkCzwg6b8)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TkbkCzwg6b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In his talk "Some Truths About Some Lies About Testing", David Brady explains why so many of us find it hard to start with building tests first and implementing the actual business logic second: Most of us learned programming in a way that immediately tackled the implementation. Actually, that's how we've learned problem-solving in general: take a problem, break it down into manageable chunks and build up the solution piece by piece. In the end, the solution will deliver the desired outcome. Or maybe it won't, and this is the time when we start testing to find out which of our pieces doesn't behave the way it's supposed to.
 
