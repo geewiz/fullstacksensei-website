@@ -1,4 +1,9 @@
-# Test-Driven
+---
+layout: post
+title: "Test-Driven"
+tags: ["development"]
+excerpt: "Why TDD is an investment that pays off"
+---
 
 The concept of Test-Driven Development (TDD) isn't particularly new anymore. But even after quite a few years of accompanying my code (regardless if it's a Rails app or Chef infra code) with tests, TDD is still far from being second nature to me. I've recently watched a talk from RubyHACK 2018 which motivated me to get better at it.
 
