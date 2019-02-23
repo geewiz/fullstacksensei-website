@@ -4,7 +4,7 @@ title: "Full Stack Live on Twitch"
 description: "Watch me work on Twitch!"
 sitemap:
     priority: 0.7
-    lastmod: 2017-11-02
+    lastmod: 2019-02-23
     changefreq: weekly
 ---
 
@@ -18,12 +18,11 @@ On my Twitch channel [fullstacklive](https://www.twitch.tv/fullstacklive), I'm d
 
 My streaming times are:
 
-* Tuesdays from 3:30pm GMT (16:30 CET, 10:30am Eastern Time)
-* Thursdays from 3:30pm GMT (16:30 CET, 10:30am Eastern Time)
+* Saturdays from 3:30pm GMT (16:30 CET, 10:30am Eastern Time)
 
 ## Recordings
 
-You can find recordings of my sessions, as well as other video content, on my [Youtube channel](https://www.youtube.com/channel/UCyYSXGM9OpT4VvoIcYQIYhA). Go ahead and subscribe!
+You can find recordings of my sessions, as well as other video content, on my [Youtube channel](https://www.youtube.com/channel/UCyYSXGM9OpT4VvoIcYQIYhA). Go ahead and subscribe to get notified of new uploads!
 
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
 <script type="text/javascript">
